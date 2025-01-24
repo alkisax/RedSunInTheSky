@@ -34,35 +34,38 @@
 </head>
 
 <body class="bg-black d-flex align-items-center justify-content-center" style="min-height: 100vh;">
-    <div class="row">
-      <div class="card mx-auto my-auto mt-2 bg-danger col-6">
-        <h2 class="mx-auto p-1">
-          <span class="me-3"><i class="fa-solid fa-hammer"></i></span>
-          <strong>Red SUN in the Sky</strong>
-          <span class="me-3"><i class="fas fa-sun"></i></span>
+  <div class="container">
+      <div class="row justify-content-center">
+        <div class="card bg-danger col-12 col-md-8 col-lg-6 p-3">
+          <h2 class="text-center text-black mb-3">
+            <span class="me-3"><i class="fa-solid fa-hammer"></i></span>
+            <strong>Red SUN in the Sky</strong>
+            <span class="me-3"><i class="fas fa-sun"></i></span>
 
-        </h2>
+          </h2>
 
-        <div class="p-4" id="quote-box">
-          <div id="text"></div>
+          <div class="p-4" id="quote-box">
+            <div id="text"></div>
 
-          <div class="d-flex justify-content-end align-items-center" id="author"></div>
-          
-          <button class="btn btn-primary me-2" id="new-quote">
-            <i class="fas fa-sync-alt"></i> New
-          </button>
-          <!-- <button class="btn btn-info text-white" id="tweet-quote">
-            <i class="fab fa-twitter"></i> 
-            <a href="#" id="tweet-link">
-              Tweet
+            <div class="d-flex justify-content-end align-items-center" id="author"></div>
+            
+            <button class="btn btn-primary me-2" id="new-quote">
+              <i class="fas fa-sync-alt"></i> New
+            </button>
+            <!-- <button class="btn btn-info text-white" id="tweet-quote">
+              <i class="fab fa-twitter"></i> 
+              <a href="#" id="tweet-link">
+                Tweet
+              </a>
+            </button> -->
+            <a href="#" id="tweet-quote" class="btn btn-info text-white">
+              <i class="fab fa-twitter"></i> Tweet
             </a>
-          </button> -->
-          <a href="#" id="tweet-quote" class="btn btn-info text-white">
-            <i class="fab fa-twitter"></i> Tweet
-          </a>
+          </div>
         </div>
       </div>
-    </div>
+  </div>
+
 
     <!-- Root div where React will render -->
     <!-- <div class="bg-white" id="root"></div> -->
