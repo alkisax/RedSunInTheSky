@@ -141,8 +141,8 @@ const renderQuote = () => {
   ReactDOM.render(quoteHtml, txt);
   ReactDOM.render(authorHtml, auth);  
 
-  const tweetQuote = document.getElementById("tweet-quote");
-  tweetQuote.setAttribute('href', `https://twitter.com/intent/tweet?text="${quotes[randomIndex].quote}" - ${quotes[randomIndex].author}`);
+  // const tweetQuote = document.getElementById("tweet-quote");
+  // tweetQuote.setAttribute('href', `https://twitter.com/intent/tweet?text="${quotes[randomIndex].quote}" - ${quotes[randomIndex].author}`);
 
 }
 renderQuote()
